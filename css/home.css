@@ -1,0 +1,517 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    border-bottom: 20px solid rgba(35, 39, 65, 0.8) !important;
+}
+
+.navbar-brand{
+    color: rgba(35, 39, 65, 0.8) !important;
+    text-decoration: none !important;
+}
+
+.navbar-toggler{
+    color: whitesmoke;
+    padding: 5px 10px;
+    background: rgba(35, 39, 65, 0.8) !important;
+    font-weight: 700;
+}
+.navbar-toggler:focus{
+   outline: none !important;
+}
+
+.navbar{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.nav-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.nav-item{
+    margin-right: 20px;
+    font-size: 14pt;
+    font-weight: 700;
+    
+}
+.nav-link{
+    color: rgba(35, 39, 65, 0.8);
+}
+
+.nav-link{
+    border-bottom: 2px solid transparent;
+    transition: ease-in-out 0.2s;
+}
+.nav-link:hover{
+    color: rgba(35, 39, 65, 0.88);
+    border-bottom: 2px solid rgba(35, 39, 65, 0.8);
+}
+
+
+/* Header, nav responsive CSS starts here */
+
+@media all and (max-width: 1100px){
+    .nav-container{
+        width: 94%;
+    }
+    .navbar-brand{
+        font-size: 12pt;
+    }
+    .nav-item{
+        margin-right: 15px;
+        font-size: 12pt;
+        font-weight: 700;
+    }
+}
+
+@media all and (max-width: 880px){
+    .nav-container{
+        width: 97%;
+    }
+    .nav-item{
+        margin-right: 12px;
+        
+    }
+}
+
+@media all and (max-width: 767px){
+    .navbar-brand{
+        margin-bottom: 5px;
+    }
+    .nav-item{
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+
+    .navbar-toggler{
+       font-size: 13pt;
+    }
+}
+
+@media all and (max-width: 350px){
+    .nav-container{
+        width: 98%;
+    }
+    .navbar-brand{
+        font-size: 10pt;
+    }
+    .navbar-toggler{
+        font-size: 11pt;
+     }
+}
+
+
+
+/* Header, nav responsive CSS Ends here */
+
+
+
+
+.opening-content-section{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin: 120px 0 0 0;
+    background: transparent;
+}
+.opening-content-section-container{
+    width: 92%;
+    margin: 0 auto;
+}
+.main-div{
+    width: 68%;
+    float:left;
+    overflow: hidden;
+}
+
+.side-bar{
+    width: 32%;
+    float: left;
+    overflow: hidden;
+}
+
+.main-div-container{
+    width: 96%;
+    margin: 0 auto;
+}
+
+.skill-titleAndMsg-div{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.skill-list-div{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.Skill-list-title{
+    width: 100%;
+    background: rgba(35, 39, 65, 0.8);
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.skill-list-msg{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: rgba(34, 105, 187, 0.8);
+    padding: 15px;
+}
+
+.skill-list-table-container{
+    width: 98%;
+    margin: 0 auto;
+}
+
+.table-headings{
+    background: rgb(69, 110, 148);
+}
+
+.skill-list-table th{
+   text-align: center;
+}
+
+.skill-list-table td{
+    text-align: center;
+    color: rgba(35, 39, 65, 0.9);
+}
+
+.edit-btn{
+    background: rgba(27,161,226 ,1);
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.edit-btn:hover{
+    background: #0077B5;
+}
+
+
+
+.side-bar-container{
+    width: 96%;
+    margin: 0 auto;
+}
+
+
+.card{
+    width: 100%;
+    padding: 10px;
+    border-radius: 0;
+    float: left;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.sidebar-card-header1{
+    background: rgba(35, 39, 65, 0.8);
+    border-radius: 0 !important;
+    border: none !important;
+    color: white;
+}
+
+.sidebar-card-body1{
+    padding: 0 !important;
+    margin-top: 4px;
+    background: rgba(22,160,133 ,1);
+    color: white;
+}
+
+.clock-date-message{
+    font-size: 13pt;
+    text-align: center;
+}
+
+#clock{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 14pt;
+}
+
+#date{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    padding: 20px 0;
+    font-weight: 700;
+    word-spacing: 2px;
+    font-size: 14pt;
+}
+
+.owl-theme .owl-dots .owl-dot:focus{
+    outline: none;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    border-radius: 0;
+    background:rgba(35, 39, 65, 0.2);
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+    background: rgba(35, 39, 65, 0.8);
+}
+
+.sidebar-card-header2{
+    background: rgba(35, 39, 65, 0.8);
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.H4{
+    text-align: center;
+    font-size: 13pt;
+    color: white;
+}
+
+.sidebar-card-body2{
+    padding: 0 !important;
+    margin-top: 4px;
+}
+
+.channels{
+    display: block;
+    text-decoration: none !important;
+    color: white;
+    background: rgba(22,160,133 ,1);
+    margin-top: 5px;
+    padding: 10px;
+    border: 2px solid rgba(22,160,133 ,1);
+    font-size: 14pt;
+}
+
+.channels:hover{
+    background: white;
+    color: rgba(22,160,133 ,1);
+}
+
+.fa-youtube{
+    padding: 0 20px;
+}
+
+.lastcard{
+    margin-bottom: 20px;
+}
+
+.sidebar-card-header3{
+    background: rgba(35, 39, 65, 0.8);
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.sidebar-card-body3{
+    padding: 0 !important;
+    margin-top: 4px;
+}
+
+.social{
+    display: block;
+    text-decoration: none !important;
+    padding: 6px;
+    margin-top: 4px;
+    font-size: 14pt;
+    color: white;
+}
+.s-icon{
+    padding: 0 20px;
+}
+.fb{
+    background: rgba(59,89,153 ,1);
+    border: 2px solid rgba(59,89,153 ,1);
+}
+
+.fb:hover{
+    background: white;
+    color: rgba(59,89,153 ,1);
+}
+
+.twt{
+    background: rgba(85,172,238 ,1);
+    border: 2px solid rgba(85,172,238 ,1);
+}
+
+.twt:hover{
+    background: white;
+    color: rgba(85,172,238 ,1);
+}
+
+.insta{
+    background: rgba(228,64,95 ,1);
+    border: 2px solid rgba(228,64,95 ,1);
+}
+
+.insta:hover{
+    background: white;
+    color: rgba(228,64,95 ,1);
+}
+
+.blog{
+    background: rgba(245,125,0 ,1);
+    border: 2px solid rgba(245,125,0 ,1);
+}
+
+.blog:hover{
+    background: white;
+    color: rgba(245,125,0 ,1);
+}
+
+.dev-info{
+    border-radius: 0;
+    border-width: 2px;
+    width: 100%;
+}
+
+.dev-info:hover{
+    background: transparent;
+    color: #17A2B8;
+}
+
+
+/* Responsive rules for Home page main elements Starts */
+
+
+@media all and (max-width: 1400px){
+    .opening-content-section-container{
+        width: 96%;
+    }
+}
+
+@media all and (max-width: 1250px){
+    .opening-content-section-container{
+        width: 98%;
+    }
+
+    .clock-date-message{
+        font-size: 12pt;
+    }
+    
+    #clock{
+        font-size: 12pt;
+    }
+    
+    #date{
+        font-size: 12pt;
+    }
+    .H4{
+        font-size: 12pt;
+    }
+    
+    .channels{
+        font-size: 12pt;
+    }
+    .social{
+        font-size: 12pt;
+
+    }
+
+    .Skill-list-title{
+       font-size: 20pt;
+    }
+    
+    .skill-list-msg{
+        font-size: 12pt;
+    }
+
+    .skill-list-table th{
+        font-size: 12pt;
+     }
+     
+     .skill-list-table td{
+        font-size: 12pt;
+     }
+     .edit-btn{
+        font-size: 12pt;
+    }
+    .delete-btn{
+        font-size: 12pt;
+    }
+}
+
+@media all and (max-width: 1050px){
+    .opening-content-section-container{
+        width: 100%;
+    }
+
+    .main-div-container{
+        width: 98%;
+    }
+
+    .side-bar-container{
+        width: 98%;
+
+    }
+
+}
+
+@media all and (max-width: 980px){
+    .main-div{
+        width: 100%;
+
+    }
+    
+    .side-bar{
+        width: 100%;
+
+    }
+
+    .clock-hide-on-responsive{
+        display: none;
+    }
+
+    .slider-hide-on-responsive{
+        display: none;
+    }
+
+
+
+}
+
+
+@media all and (max-width: 610px){
+    .skill-list-msg{
+        font-size: 11pt;
+    }
+    .skill-list-table-container{
+        overflow-x: auto;
+    }
+
+    .Skill-list-title{
+        font-size: 16pt;
+     }
+    
+     .edit-btn{
+        font-size: 10pt;
+    }
+    .delete-btn{
+        font-size: 10pt;
+    }
+
+    .skill-list-table th{
+        font-size: 11pt;
+     }
+     
+     .skill-list-table td{
+        font-size: 11pt;
+     }
+ 
+}
+
+
+/* Responsive rules for Home page main elements Ends */
